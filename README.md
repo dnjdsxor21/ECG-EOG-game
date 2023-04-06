@@ -3,6 +3,9 @@
 
 ![game_gif](https://user-images.githubusercontent.com/75467530/230481366-1f627547-fa07-401d-8bc6-11f224a45bc2.gif)
 
+
+---
+
 # ECG
 3-lead electordes were positioned.
 
@@ -32,14 +35,15 @@ The t-rex character move up(down) when the eyeballs go up(down).
 
 # Analog Filter
 
-Use the active band-pass filter (0.159Hz ~ 15.9Hz) to **pass only LOW frequency.**
+Use the active band-pass filter (0.159Hz ~ 15.9Hz) to pass only LOW frequency.
 
 # Digital Filter / MSP 430
 
 sample-rate = 250Hz
 
-ECG : 3rd order Butterworth bandpass filter (5~30Hz) to remove the power noise
-EOG : 3rd order Butterworth bandpass filter (5~10Hz) to remove the power noise
+ECG : 3rd order Butterworth bandpass filter (5 ~ 30Hz) to remove the power noise
+
+EOG : 3rd order Butterworth bandpass filter (5 ~ 10Hz) to remove the power noise
 
 # GUI
 C# .NET used.
@@ -52,6 +56,22 @@ C# .NET used.
 At first, We implement the preprocessing algorithm(pan tompkins) in the [Matlab](https://kr.mathworks.com/?s_tid=gn_logo).
 
 But, CPU memory was insufficient.
+
+--- 
+
+## Sensor
+Custom analog circuit(+MSP 430) for Bio-signal sensor
+
+[OP AMP](https://www.devicemart.co.kr/goods/view?no=14624166) : TLV2372QDRG4Q (Op Amp Dual Low Power Amplifier)
+
+## Software
+LTspice(circuit simulation)
+
+Matlab(preprocessing)
+
+C++(MSP430 embedding system)
+
+C# (GUI implementation)
 
 # Reference
 Biopac(https://www.biopac.com/application-note/ecg-ekg-electrocardiography-12-6-3-lead/)
