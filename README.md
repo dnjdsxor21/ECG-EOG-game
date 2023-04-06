@@ -41,9 +41,9 @@ sample-rate = 250Hz
 ECG : 3rd order Butterworth bandpass filter (5~30Hz) to remove the power noise
 EOG : 3rd order Butterworth bandpass filter (5~10Hz) to remove the power noise
 
-# Game
+# GUI
 C# .NET used.
-
+[Mitov PlotLab Basic](https://mitov.com/products/plotlab#overview) used.
 - The speed of the obstacle is determined by **bpm**.
 - The character moves with **the movement of the eyeballs**.
 
@@ -62,4 +62,8 @@ EOG(https://electrooculography.wordpress.com/)
 
 Pan Tomkins(https://kr.mathworks.com/matlabcentral/fileexchange/45840-complete-pan-tompkins-implementation-ecg-qrs-detector)
 
+Mitov Plotlab(https://mitov.com/products/plotlab#overview)
+
 T-rex game(https://github.com/mooict/T-Rex-Endless-Runner-Game-in-Windows-Form)
+
+
