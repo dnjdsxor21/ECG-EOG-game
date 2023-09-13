@@ -1,7 +1,7 @@
 # ECG-EOG-game
 ### Simple t-rex game controlled by ECG and EOG
 
-![game_gif](https://user-images.githubusercontent.com/75467530/230481366-1f627547-fa07-401d-8bc6-11f224a45bc2.gif)
+<img src="https://user-images.githubusercontent.com/75467530/230481366-1f627547-fa07-401d-8bc6-11f224a45bc2.gif" alt="게임 GIF" width="800" height="550">
 
 
 ---
